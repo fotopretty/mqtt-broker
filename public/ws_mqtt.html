@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Test ws mqtt</title>
+    <script type="text/javascript" src="./browserMqtt.js"></script>
+    <script type="text/javascript" src="./jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="">
+      Server ID : <strong id="server-id"></strong>
+      <ul class="">
+        <li>服务器启动时间: <span id="started_at" class=""></span></li>
+        <li>运行时间: <span id="uptime" class=""></span></li>
+        <li>客户端连接数: <span id="clients" class=""></span></li>
+        <li>发送消息数量: <span id="publish" class=""></span></li>
+      </ul>
+
+      <hr />
+      <p>
+        Client Total: <strong id="client-total"></strong>
+      </p>
+      <p>
+        Publish Total: <strong id="publish-total"></strong>
+      </p>
+    </div>
+    <script type="text/javascript" src="./ws_mqtt.js"></script>
+  </body>
+</html>
