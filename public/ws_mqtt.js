@@ -1,5 +1,5 @@
 
-var client = mqtt.connect('ws://192.168.56.103:3000/', {
+var client = mqtt.connect({
     username: 'monitor',
     password: '41NI1wxl'
 }); // you add a ws:// url here
